@@ -1,0 +1,8 @@
+/* Styles for table rows */
+.table-row-even {
+    background-color: #ffffff; /* Light color for even rows */
+}
+
+.table-row-odd {
+    background-color: #f9f9f9; /* Slightly darker color for odd rows */
+}
