@@ -1,0 +1,46 @@
+
+
+/* Add these styles to your Home.css file or any other CSS file you are using */
+
+/* Style for the navigation menu column */
+.nav {
+    /* background-color: white; */
+    padding: 0;
+  }
+  
+  /* Style for the navigation menu items */
+  .nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    padding-top: 0%;
+  }
+  
+  .nav a:hover {
+    background-color: #1C2833;
+  }
+  
+  /* Style for the content column */
+  .navcontent {
+    /* padding: 20px; */
+    /* background-color: white; */
+    height: calc(99.5vh - 60px); 
+    overflow-y: auto; /* Add scrollbars if content exceeds the height */
+  }
+  
+  /* Style for the active navigation item */
+  .active-nav-item {
+    background-color: black;
+    color: white !important;
+  }
+  .rownav{
+    /* width: 100%; */
+    background-color: white;
+   
+  }
+
+
+  .custom-accordion-item {
+    width: 280px; /* Set your desired width */
+  }

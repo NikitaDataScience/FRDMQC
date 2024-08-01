@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header { 
+  
+  background: navy !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+  color: white;
+}
+
+.App-link {
+  color: #a4fb61;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+/* admin left side nav layout */
+
+/* .container {
+  height: 100vh;
+  background-color: #ccc;
+  position: relative;
+} */
+body {
+  
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.container .sidebar {
+  position: fixed;
+  background-color: #fff;
+  height: 100vh;
+  width: 70px;
+  z-index: 10;
+  text-align: center;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar li:nth-child(1) {
+  padding: 30px 0px;
+}
+
+
+.sidebar li:hover:nth-child(1) {
+  padding: 30px 0px;
+  background-color: transparent;
+  color: #000;
+}
+
+.sidebar li {
+  padding: 12px;
+  cursor: pointer;
+  transition: all 0.5s;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar li span:nth-child(1) {
+  font-size: 20px;
+}
+
+.sidebar li span:nth-child(2) {
+  font-size: 10px;
+}
+
+.sidebar li:hover {
+  background-color: #f2f2f2;
+  padding: 12px;
+
+}
+
+/* .container .content {
+
+  padding-left: 75px;
+} */

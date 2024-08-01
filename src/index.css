@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f9fbff!important;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+  font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 1%;
+}
+
+body,
+html,
+.App,
+#root,
+.auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light {
+  background: src="https://picsum.photos/900/180";
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  color: rgb(233, 235, 240);
+  padding-top: 2;
+}
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 2;
+  margin: 1;
+  color: rgb(1, 10, 12);
+}
+
+.auth-inner {
+  width: 1300px;
+  margin: auto;
+  background: rgb(64, 130, 163);
+  box-shadow: 0px 14px 80px rgba(195, 196, 212, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+  color: rgb(1, 31, 40);
+}
+.class-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+}
+
+.main-container {
+  display: flex;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
